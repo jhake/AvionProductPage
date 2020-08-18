@@ -43,7 +43,50 @@ footer {
 }
 
 #hero-section {
-    color: red;
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hero-section img {
+    max-width: 520px;
+    padding-right: 80px;
+}
+
+#hero-content {
+    width: 40vw;
+    max-width: 620px;
+}
+
+#hero-content h1 {
+    color: #262e3a;
+    font-size: 52px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#hero-content .highlight {
+    color: rgb(36,180,126);
+}
+
+#hero-content p {
+    color: #4c5564;
+    font-size: 24px;
+    max-width: 75%;
+}
+
+#hero-content .button {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px;
+    background-color: #00985d;
+    border-radius: 5px;
+    width: 320px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 #business-section {
