@@ -90,7 +90,8 @@ footer {
 }
 
 #business-section {
-    color: red;
+    background: linear-gradient(180deg,#bce4d0 75%,rgba(226,255,241,0) 90%);
+    height: 648px;
 }
 
 #grow-section {
