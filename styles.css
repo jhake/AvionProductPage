@@ -1,6 +1,8 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Manrope', sans-serif;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {    
@@ -45,10 +47,6 @@ header a {
 
 header img {
     max-width: 260px;
-}
-
-footer {
-    color: red;
 }
 
 #hero-section {
@@ -301,13 +299,95 @@ footer {
 }
 
 #grow-section {
-    color: red;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#grow-section h1{
+    color: #262e3a;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 40px;
+}
+
+.grow {
+    margin-right: 64px;
+}
+
+.description {
+    color: #4c5564;
+    font-size: 24px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.valuepropcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.valueprop {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 24px;
+    flex-direction: row;
+}
+
+.text {
+    display: block;
+}
+
+.valueproptext {
+    color: #4c5564;
+    font-size: 16px;
+    display: inline;
+}
+
+.icons {
+    width: 60px;
+    height: 60px;
+    margin-right: 16px;
+}
+
+h4 {
+    font-size: 18px;
+    color:#008651;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.getstarted {
+    padding: 16px 32px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+    background-color: #00985d;
+    border-radius: 4px;
+    border: none;
 }
 
 #provide-section {
-    color: red;
+    
 }
 
 #customers-section {
-    color: red;  
+     
+}
+
+footer {
+    
 }
