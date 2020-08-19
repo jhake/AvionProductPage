@@ -307,6 +307,8 @@ header img {
     padding: 80px 40px;
     display: flex;
     flex-direction: column;
+    padding: 40px;
+    padding-top: 120px;
 }
 
 #grow-section h1{
@@ -316,14 +318,16 @@ header img {
     margin-bottom: 24px;
 }
 
-.container {
+#grow-section .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0 auto 40px;
 }
 
 .grow {
-    margin-right: 64px;
+    padding-right: 64px;
+    max-width: 320px;
 }
 
 .description {
@@ -341,19 +345,22 @@ header img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 700px;
 }
 
 .valueprop {
+    font-weight: 500;
     margin-bottom: 24px;
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-right: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    padding-right: 24px;
     flex-direction: row;
 }
 
 .text {
-    display: block;
+    display: inline;
 }
 
 .valueproptext {
@@ -369,6 +376,7 @@ header img {
 }
 
 h4 {
+    font-weight: 500;
     font-size: 18px;
     color:#008651;
     margin-bottom: 4px;
