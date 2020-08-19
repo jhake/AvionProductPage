@@ -5,6 +5,15 @@
     margin: 0;
 }
 
+html {    
+    min-width: 600px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -59,9 +68,10 @@ header img {
 
 #hero-content h1 {
     color: #262e3a;
-    font-size: 52px;
+    font-size: 56px;
     font-weight: 400;
     margin: 0;
+    line-height: 56px;
 }
 
 #hero-content .highlight {
@@ -79,6 +89,9 @@ header img {
     text-decoration: none;
     padding: 16px;
     background-color: #00985d;
+    box-shadow: 0 0 12px rgba(31,116,84,.18);
+    border-color: white;
+    border: 2px solid #fff;
     border-radius: 5px;
     width: 320px;
     display: block;
@@ -87,9 +100,202 @@ header img {
     font-weight: 400;
 }
 
+#hero-content .button:hover {
+    background-color: #61c194;
+    color: #fff;
+}
+
 #business-section {
+    display: flex;
     background: linear-gradient(180deg,#bce4d0 75%,rgba(226,255,241,0) 90%);
-    height: 648px;
+    padding: 40px;
+    padding-top: 120px;
+    flex-direction: row;
+    justify-content: center;
+    color: #1F7454;
+}
+
+#business-content {
+    width: 40vw;
+    max-width: 620px;
+}
+
+#business-content h2 {
+    font-size: 56px;
+    font-weight: 400;
+    max-width: 320px;
+    line-height: 64px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#business-content p {
+    font-size: 24px;
+    max-width: 320px;
+    line-height: 28px;
+    margin-top: 0;
+}
+
+#business-content .button {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 16px;
+    background-color: #00985d;
+    box-shadow: 0 0 12px rgba(31,116,84,.18);
+    border-color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 320px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#business-content .button:hover {
+    background-color: #61c194;
+    color: #fff;
+}
+
+#business-content a {
+    text-decoration: none;
+    color: inherit;
+    padding: 16px;
+    width: 320px;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#business-image-container {
+    background: url("./assets/business-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 352px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.business-item {
+    margin: 0 8px;
+}
+
+#business-image-container img {
+    margin: 0 auto;
+    display: block;
+}
+
+#business-image-container .freelancers {
+    width: 60px;
+}
+
+#business-image-container .small {
+    width: 65px;
+}
+
+#business-image-container .large {
+    width: 100px;
+}
+
+#business-image-container p {
+    text-align: center;
+    font-size: 12px;
+    width: 96px;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        position: relative;
+        z-index: 1;
+        margin-top: 64px;
+        margin-bottom: -112px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    #hero-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #hero-content {
+        width: 100%;
+    }
+
+    #hero-content .button {
+        margin: 0 auto;
+    }
+
+    #hero-section img {
+        max-width: 400px;
+        padding: 0 0 0 0;
+        margin: 0 auto;
+    }
+    
+    #hero-content h1 {
+        margin: 16px auto;
+        width: 100%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    #hero-content p {
+        margin: 0 auto;
+        margin-bottom: 16px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #business-section {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 160px;
+        padding-bottom: 240px;
+    }
+
+    #business-image-container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #business-content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -640px;
+        width: 400px;
+        max-width: 90%;
+    }
+
+    #business-content .button {
+        margin: 0 auto;
+        margin-top: 240px;
+        max-width: 100%;
+    }
+
+    #business-content a {
+        margin: 0 auto;
+    }
+    
+    #business-content h2 {
+        font-size: 32px;
+        line-height: 32px;
+        max-width: 100%;
+        margin-bottom: 8px;
+    }
+
+    #business-content p {
+        font-size: 20px;
+        line-height: 20px;
+        max-width: 100%;
+    }
 }
 
 #grow-section {
