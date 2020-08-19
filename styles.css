@@ -69,9 +69,10 @@ header img {
 #hero-content h1 {
     color: #262e3a;
     font-size: 56px;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
-    line-height: 56px;
+    line-height: 64px;
+    margin-top: 64px;
 }
 
 #hero-content .highlight {
@@ -82,6 +83,7 @@ header img {
     color: #4c5564;
     font-size: 24px;
     max-width: 75%;
+    margin-top: 16px;
 }
 
 #hero-content .button {
@@ -97,7 +99,8 @@ header img {
     display: block;
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
+    margin-top: 32px;
 }
 
 #hero-content .button:hover {
@@ -121,8 +124,8 @@ header img {
 }
 
 #business-content h2 {
-    font-size: 56px;
-    font-weight: 400;
+    font-size: 52px;
+    font-weight: 500;
     max-width: 320px;
     line-height: 64px;
     margin-top: 0;
@@ -130,7 +133,7 @@ header img {
 }
 
 #business-content p {
-    font-size: 24px;
+    font-size: 20px;
     max-width: 320px;
     line-height: 28px;
     margin-top: 0;
@@ -149,7 +152,8 @@ header img {
     display: block;
     text-align: center;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 500;
+    margin-top: 24px;
 }
 
 #business-content .button:hover {
@@ -165,7 +169,7 @@ header img {
     display: block;
     text-align: center;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #business-image-container {
@@ -203,6 +207,7 @@ header img {
     text-align: center;
     font-size: 12px;
     width: 96px;
+    margin-top: 16px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -232,7 +237,7 @@ header img {
     }
 
     #hero-section img {
-        max-width: 400px;
+        max-width: 500px;
         padding: 0 0 0 0;
         margin: 0 auto;
     }
@@ -270,7 +275,7 @@ header img {
         margin: 0;
         padding: 0;
         margin-bottom: -640px;
-        width: 400px;
+        width: 500px;
         max-width: 90%;
     }
 
@@ -307,7 +312,7 @@ header img {
 #grow-section h1{
     color: #262e3a;
     font-size: 52px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 24px;
 }
 
