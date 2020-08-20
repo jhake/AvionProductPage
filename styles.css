@@ -294,7 +294,7 @@ header img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 700px;
+    width: 100%;
 }
 
 .valueprop {
@@ -590,7 +590,7 @@ a {
     #grow-section {
         padding-top: 0;
     }
-    
+
     #grow-section .container {
         flex-direction: column;
         align-items: center;
@@ -625,5 +625,35 @@ a {
 
     .valueprop img {
         margin: 0 24px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .address {
+        text-align: center;
+    }
+
+    .footerlinks {
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+
+    .footerlinks li {
+        margin-bottom: 16px;
+    }
+
+    .footerlinks a{
+        margin: 0;
+    }
+
+    .paymongo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-end;
     }
 }
